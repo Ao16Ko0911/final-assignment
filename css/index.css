@@ -2,7 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0fff0;
+    background-image: url(../images/index/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .container{
