@@ -2,12 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url(../images/index/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
     background-color: #98c56e;
-    /*color: #fff;*/
     padding: 10px 0;
     text-align: center;
     border-bottom: 2px solid #4b8a29;
@@ -15,18 +24,20 @@ header {
     height: 100px;
 }
 
-.title{
+.title {
     margin-right: auto;
+    font-size: 50px;
 }
 
-.menu-item{
+.menu-item {
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 15px;
 }
 
 header h1 {
     margin: 0;
+    font-size: 50px;
 }
 
 nav ul {
@@ -47,6 +58,13 @@ nav ul li a {
 
 main {
     padding: 20px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
     text-align: center;
 }
 
@@ -79,14 +97,13 @@ main {
     font-weight: bold;
 }
 
-
 .map {
     width: 930px;
     max-width: 90%;
     margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
-    }
+}
 
 .map iframe {
     display: block;
