@@ -95,10 +95,11 @@ main {
     border: 1px solid rgba(160, 255, 171, 0.867);
     border-radius: 8px;
     overflow: hidden;
-    margin: 10px;
-    width: auto;
+    margin: 10px 0;
+    width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: 0.2s;
+    text-align: left;
 }
 
 .link-item:hover {
@@ -108,38 +109,47 @@ main {
 .link-item a{
     text-decoration: none;
     color: #4b8a29;
-    display: block;
-    padding: 10px;
+    display: flex;
+    width: 100%;
 }
 
 .link-item img{
-    width: 100%;
+    width: 20%;
     height: auto;
     display: block;
+    object-fit: cover;
 }
 
-.link-item p{
-    margin: 10px 0;
+.item-content{
+    padding: 10px;
+    width: 70%;
 }
 
-.link-item .data{
-    color: #4b8a29;
+.item-content .title{
+    margin: auto;
+    font-size: 3.0em;
+    font-weight: bold;
+}
+
+.item-content .data{
+    color: #979797;
     font-weight: 0.9em;
+    margin-bottom: 10px;
 }
 
-.link-item .details{
+.item-content .details{
     font-size: 0.9em;
-    color: #4b8a29;
+    color: #000000;
 }
 
 footer {
     background-color: #4b8a29;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
-    position: fixed;
     width: 100%;
+    height: 30px;
     bottom: 0;
+    left: 0;
 }
 
 footer nav ul li {
