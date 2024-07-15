@@ -282,9 +282,17 @@ footer nav ul li a {
     
     .item-content .sec_title{
         margin: auto;
-        font-size: 1.6em;
+        font-size: 1.5em;
         font-weight: bold;
         margin-bottom: 0%;
+    }
+
+    .item-content .data{
+        font-size: 0.7em;
+    }
+
+    .item-content .details{
+        font-size: 0.8em;
     }
 
     footer {
