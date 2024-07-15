@@ -101,7 +101,7 @@ main {
 
 .link-item{
     background-color: #fff;
-    border: 1px solid rgba(160, 255, 171, 0.867);
+    border: 1px solid rgba(246, 154, 227, 0.867);
     border-radius: 8px;
     overflow: hidden;
     margin: 10px 0;
@@ -136,7 +136,7 @@ main {
 
 .item-content .sec_title{
     margin: auto;
-    font-size: 1.8em;
+    font-size: 2.0em;
     font-weight: bold;
     margin-bottom: 0%;
 }
