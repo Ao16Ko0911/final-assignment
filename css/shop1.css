@@ -6,6 +6,15 @@ body {
     background-size: cover;
     height : 100%;
     width : 100%;
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.shippori-mincho-b1-regular {
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container {
